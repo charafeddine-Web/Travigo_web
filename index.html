@@ -15,26 +15,42 @@
 <body>
 	<!--header--->
 	<header>
-		<a href="index.html" class="logo">logo</a>
-		<div class="bx bx-menu" id="menu-icon"></div>
+	<a href="index.html" class="logo">
+		<img src="./img/logoo.png" alt="logo" style="width: 200px; height: 50px; box-shadow: 50%; border-left:5px solid black ; border-bottom: 3px solid black;border-radius:20%; background-color: white;">
+	</a>
+	<div class="bx bx-menu" id="menu-icon"></div>
+	<ul class="navbar">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="Tours.html">Tours</a></li>
+		<li><a href="AboutUS.html">About</a></li>
+		<li><a href="ContactUS.html">Contact Us</a></li>
+		<li id="reserve"><a href="Reserve.html">Réservez maintenant-></a></li>
+	</ul>
+</header>
 
-		<ul class="navbar">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="Tours.html">Tours</a></li>
-			<li><a href="AboutUS.html">About</a></li>
-			<li><a href="ContactUS.html">Contact Us</a></li>
-			<li id="reserve" ><a href="Reserve.html">Réservez maintenant-></a></li>
-		</ul>
-	</header>
 
 	<!--Home section--->
-	<section class="home" id="home">
+	
+	<!-- <section class="home " id="home">
 		<div class="home-text">
 			<h1>Travigo <br> Travel</h1>
 			<p>Explore our trips and live The Good Life with Travigo <br> Tours that make you fall in love with the world.</p>
 			<a href="Reserve.html" class="home-btn">Let's go now</a>
 		</div>
+	</section> -->
+	<section class="home relative overflow-hidden h-screen" id="home">
+		<video autoplay loop muted class="absolute inset-0 w-full h-full object-cover">
+			<source src="../img/BG1.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		
+		<div class="home-text relative z-10 text-black text-center">
+			<h1 class="text-4xl font-bold">Travigo <br> Travel</h1>
+			<p class="mt-4 text-lg">Explore our trips and live The Good Life with Travigo <br> Tours that make you fall in love with the world.</p>
+			<a href="Reserve.html" class="home-btn mt-6 inline-block bg-blue-500 text-white py-2 px-4 rounded">Let's go now</a>
+		</div>
 	</section>
+	
 
 	<!--container--->
 	<section class="container">
