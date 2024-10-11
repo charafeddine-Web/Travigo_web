@@ -103,7 +103,7 @@ section{
 }
 
 
-.home-text h1{
+.home-text h1 {
 	font-size: var(--big-font);
 	line-height: 1.2;
 	color: var(--bg-color);
@@ -112,6 +112,7 @@ section{
 	margin-bottom: 20px;
 	margin-top: 3rem;
 }
+
 .home-text p{
 	color: #ffffffbf;
 	font-size: 20px;
@@ -129,8 +130,9 @@ section{
 	transition: ease .40s;
 }
 .home-btn:hover{
-	background: var(--bg-color);
+	background-color: #bd18fa;
 	transform: scale(1.1);
+	color: #221314;
 }
 header.sticky{
 	background: var(--bg-color);
@@ -154,7 +156,7 @@ header.sticky{
 	grid-gap: 2rem;
 	align-items: center;
 	text-align: center;
-	margin-top: 5rem;
+	margin-top: 10rem;
 }
 .container-box{
 	background: var(--bg-color);
@@ -182,6 +184,7 @@ header.sticky{
 	margin-bottom: 15px;
 	cursor: pointer;
 }
+
 .container-box h4{
 	font-size: 24px;
 	font-weight: 600;
@@ -191,9 +194,13 @@ header.sticky{
 	font-size: 15px;
 	color: var(--second-color);
 }
+.container-box{
+	background-color: rgb(246, 229, 255);
+}
 .container-box:hover{
-	box-shadow: 5px 30px 56.1276px rgb(55 55 55 / 12%);
-	border: 1px solid transparent;
+	box-shadow: 10px 15px 56.1276px #6e57ef;
+	background-color: #e5b9fc;
+	border: 1px solid #f021ff;
 	transform: translateY(-3px);
 }
 
@@ -326,6 +333,7 @@ header.sticky{
 	font-size: var(--h2-font);
 	margin-bottom: 5px;
 }
+
 .news-text p{
 	font-size: var(--p-font);
 	color: var(--second-color);
